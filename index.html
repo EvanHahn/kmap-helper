@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<title>kmapper</title>
+<link rel="stylesheet" href="vendor/normalize.css">
+<link rel="stylesheet" href="the.css">
+<meta name="viewport" content="width=device-width">
+
+</head>
+<body>
+
+<form>
+
+<div>
+  <label for="left">variables on the left</label>
+  <input id="left" type="text" value="a,b"></input>
+</div>
+
+<div>
+  <label for="right">variables on the right</label>
+  <input id="right" type="text" value="c,d"></input>
+</div>
+
+<div>
+  <label for="values">values for which it's true</label>
+  <input id="values" type="text" value="1,2,3,4"></input>
+</div>
+
+<input type="submit" value="go for it"></input>
+
+</form>
+
+<table></table>
+
+<script src="vendor/crel.js"></script>
+<script src="vendor/polyfills.js"></script>
+<script src="kmap.js"></script>
+<script src="the.js"></script>
+
+</body>
+</html>
