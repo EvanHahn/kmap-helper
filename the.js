@@ -5,7 +5,7 @@ window.onload = function() {
 
   function parse(element) {
     var value = element.value;
-    return value.split(/[\s|,]*/g).map(function(v) {
+    return value.split(/[\s|,]+/g).map(function(v) {
       var number = parseInt(v, 10);
       if (Number.isNaN(number)) {
         return v;
