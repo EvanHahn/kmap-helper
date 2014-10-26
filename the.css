@@ -6,7 +6,11 @@ form {
   margin: 1em auto;
   display: block;
   width: 50%;
-  text-align: center;
+  text-align: right;
+}
+
+form div {
+  margin-bottom: 0.5em;
 }
 
 table {
